@@ -41,4 +41,4 @@ OK
 * Then set up Travis-CI for this project. Create the `.travis.yml` file, configure the Travis-CI service.
 * Once Travis works in your own GitHub/Travis-CI accounts, send a pull-request.
 * We will comment on the PR, but won't merge it.
-
+* The `script` part must be the command we use to run the tests. In our case this is `python -m unittest discover`.
