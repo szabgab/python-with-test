@@ -6,5 +6,5 @@ class TestMy(unittest.TestCase):
         self.assertEqual(my.math.add(2, 3), 5)
 
     def test_sum(self):
-        self.assertEqual(my.math.sum(2, 3, 4), 6)
+        self.assertEqual(my.math.sum(2, 3, 4), 9)
 
